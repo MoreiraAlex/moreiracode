@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className="antialiased" suppressHydrationWarning={true}>
-        <ThemeProvider attribute="class" defaultTheme="">
+        <ThemeProvider attribute="class" defaultTheme="dark">
           {children}
           <Analytics />
           <SpeedInsights />
